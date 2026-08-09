@@ -20,6 +20,7 @@ Actions to keep results reproducible.
 ## Things I've built
 
 **[Financial Knowledge Graph](https://github.com/mbcdet/financial-kg)**
+
 A prototype for a problem I kept running into: what should a system conclude when
 macro signals point in opposite directions? Instead of handing it to a model, this
 one encodes a small curated ontology of macro drivers and assets, pulls live market
@@ -28,6 +29,7 @@ reasoning in Cypher. Each result comes with a proof tree showing which force won
 and why.
 
 **[SiteFinder](https://github.com/mbcdet/SiteFinder)**
+
 A command-line tool that finds local businesses with no website, a social-media-only
 presence, or an outdated one, then ranks them as web-development prospects.
 Discovery runs on OpenStreetMap, so it costs nothing. The site audit runs
@@ -37,6 +39,7 @@ and waits for confirmation before sending any request, so the tool cannot quietl
 run up a bill. Tests run against fixtures, with no network required.
 
 **[Business Showcase Platform](https://github.com/mbcdet/Business-showcase)**
+
 A Turborepo monorepo for client business websites, with a shared component library
 and per-business theming through CSS custom properties. Each site is defined by
 configuration and data rather than a separate codebase, so adding one is mostly a
